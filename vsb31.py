@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 
 '''
-Documentation, License etc.
-@package vig_list
-
 v_sub by Alessandro Hamuche
-Version: 3.0
+Version: 3.1
 Date: 20 October 2021
 Modified: 4 October 2022
 '''
