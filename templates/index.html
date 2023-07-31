@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encryption App</title>
+</head>
+<body>
+    <h1>Encryption App</h1>
+    <form method="post">
+        <label for="one_time">One-time word:</label>
+        <input type="text" id="one_time" name="one_time" required>
+        <br>
+        <label for="entry">Entry:</label>
+        <input type="text" id="entry" name="entry" required>
+        <br>
+        <input type="submit" value="Encrypt">
+    </form>
+    {% if result %}
+    <h2>Encrypted Entry:</h2>
+    {{ result }}
+    {% endif %}
+</body>
+</html>
